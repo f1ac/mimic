@@ -70,3 +70,5 @@ addons:
     build_command: ./run_testsuite.sh
     branch_pattern: coverity_scan
 
+deploy:
+  skip_cleanup: true
